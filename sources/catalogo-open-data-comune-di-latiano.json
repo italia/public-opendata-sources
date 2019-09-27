@@ -1,0 +1,10 @@
+{
+   "title": "Catalogo open data Comune di Latiano", 
+   "name": "catalogo-open-data-comune-di-latiano", 
+   "url": "http://dati.comune.latiano.br.it/catalog.ttl", 
+   "type": "harvest", 
+   "source_type": "dcat_rdf", 
+   "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Comune di Latiano\",\"source_catalog_description\":\"Catalogo open data Comune di Latiano\",\"source_catalog_homepage\":\"http://dati.comune.latiano.br.it/catalog.ttl\",\"source_catalog_language\":\"ITA\",\"source_catalog_modified\":\"2017-01-01T00:00:00\"}}", 
+   "owner_org": "comune-di-latiano", 
+   "frequency": "MANUAL"
+}

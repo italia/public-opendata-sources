@@ -1,0 +1,10 @@
+{
+   "title": "Catalogo open data Regione Marche", 
+   "name": "catalogo-open-data-regione-marche", 
+   "url": "http://goodpa.regione.marche.it/", 
+   "type": "harvest", 
+   "source_type": "CKAN-DCATAPIT", 
+   "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Regione Marche\",\"source_catalog_description\":\"Catalogo OpenData della Regione Marche\",\"source_catalog_homepage\":\"http://goodpa.regione.marche.it/\",\"source_catalog_language\":\"ITA\",\"source_catalog_modified\":\"2017-01-01T00:00:00\"}}", 
+   "owner_org": "regione-marche", 
+   "frequency": "MANUAL"
+}

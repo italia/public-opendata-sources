@@ -1,0 +1,10 @@
+{
+   "title": "Catalogo federato Salento Jonico", 
+   "name": "catalogo-federato-salento-jonico", 
+   "url": "http://www.salentojonico.it/catalog.rdf", 
+   "type": "harvest", 
+   "source_type": "dcat_rdf", 
+   "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo federato Salento Jonico\",\"source_catalog_description\":\"Catalogo open data Catalogo federato Salento Jonico\",\"source_catalog_homepage\":\"http://www.salentojonico.it/catalog.rdf\",\"source_catalog_language\":\"ITA\",\"source_catalog_modified\":\"2017-01-01T00:00:00\"}}", 
+   "owner_org": "salento-jonico", 
+   "frequency": "MANUAL"
+}

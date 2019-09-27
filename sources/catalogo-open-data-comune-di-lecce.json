@@ -1,0 +1,10 @@
+{
+   "title": "Catalogo open data Comune di Lecce", 
+   "name": "catalogo-open-data-comune-di-lecce", 
+   "url": "http://dati.comune.lecce.it/", 
+   "type": "harvest", 
+   "source_type": "CKAN-DCATAPIT", 
+   "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Comune di Lecce\",\"source_catalog_description\":\"Catalogo OpenData del Comune di Lecce\",\"source_catalog_homepage\":\"http://dati.comune.lecce.it/\",\"source_catalog_language\" :\"http://publications.europa.eu/resource/authority/language/ITA\",\"source_catalog_modified\":\"2017-01-01T00:00:00\"}}", 
+   "owner_org": "comune-di-lecce", 
+   "frequency": "MANUAL"
+}

@@ -1,0 +1,10 @@
+{
+   "title": "Catalogo open data Comune di Crotone", 
+   "name": "catalogo-open-data-comune-di-crotone", 
+   "url": "http://www.opencrotone.it/data.json", 
+   "type": "harvest", 
+   "source_type": "dcat_json", 
+   "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Comune di Crotone\",\"source_catalog_description\":\"Catalogo open data Comune di Crotone\",\"source_catalog_homepage\":\"http://www.opencrotone.it/data.json\",\"source_catalog_language\":\"ITA\",\"source_catalog_modified\":\"2017-01-01T00:00:00\"}}", 
+   "owner_org": "comune-di-crotone", 
+   "frequency": "MANUAL"
+}

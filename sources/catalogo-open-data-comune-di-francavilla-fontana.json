@@ -1,0 +1,10 @@
+{
+   "title": "Catalogo open data Comune di Francavilla Fontana", 
+   "name": "catalogo-open-data-comune-di-francavilla-fontana", 
+   "url": "http://dati.comune.francavillafontana.br.it", 
+   "type": "harvest", 
+   "source_type": "CKAN-DCATAPIT", 
+   "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Comune di Francavilla Fontana\",\"source_catalog_description\":\"Catalogo open data Comune di Francavilla Fontana\",\"source_catalog_homepage\":\"http://dati.comune.francavillafontana.br.it\",\"source_catalog_language\":\"ITA\",\"source_catalog_modified\":\"2017-01-01T00:00:00\"}}", 
+   "owner_org": "comune-di-francavilla-fontana", 
+   "frequency": "MANUAL"
+}

@@ -1,0 +1,10 @@
+{
+   "title": "Catalogo open data MISE Open Coesione", 
+   "name": "catalogo-open-data-mise-open-coesione", 
+   "url": "https://opencoesione.gov.it/media/opendata/OpenCoesione.ttl", 
+   "type": "harvest", 
+   "source_type": "dcat_rdf", 
+   "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Open Coesione\",\"source_catalog_description\":\"Catalogo open data Open Coesione\",\"source_catalog_homepage\":\"https://opencoesione.gov.it/media/opendata/OpenCoesione.ttl\",\"source_catalog_language\":\"ITA\",\"source_catalog_modified\":\"2017-01-01T00:00:00\"}}", 
+   "owner_org": "mise", 
+   "frequency": "MANUAL"
+}

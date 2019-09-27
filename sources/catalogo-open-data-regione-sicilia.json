@@ -1,0 +1,10 @@
+{
+   "title": "Catalogo open data Regione Sicilia", 
+   "name": "catalogo-open-data-regione-sicilia", 
+   "url": "https://dati.regione.sicilia.it/catalog.rdf", 
+   "type": "harvest", 
+   "source_type": "dcat_rdf", 
+   "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Regione Sicilia\",\"source_catalog_description\":\"Catalogo open data Regione Sicilia\",\"source_catalog_homepage\":\"https://dati.regione.sicilia.it/catalog.rdf\",\"source_catalog_language\":\"ITA\",\"source_catalog_modified\":\"2017-01-01T00:00:00\"}}", 
+   "owner_org": "regione-sicilia", 
+   "frequency": "MANUAL"
+}

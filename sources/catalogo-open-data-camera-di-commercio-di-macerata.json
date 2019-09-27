@@ -1,0 +1,10 @@
+{
+   "title": "Catalogo open data Camera di Commercio di Macerata", 
+   "name": "catalogo-open-data-camera-di-commercio-di-macerata", 
+   "url": "http://www.mc.camcom.it/uploaded/linked-open-data/dcat-opendata-catalog.rdf", 
+   "type": "harvest", 
+   "source_type": "dcat_rdf", 
+   "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Camera di Commercio di Macerata\",\"source_catalog_description\":\"Catalogo open data Camera di Commercio di Macerata\",\"source_catalog_homepage\":\"http://www.mc.camcom.it/uploaded/linked-open-data/dcat-opendata-catalog.rdf\",\"source_catalog_language\":\"ITA\",\"source_catalog_modified\":\"2017-01-01T00:00:00\"}}", 
+   "owner_org": "cciaa-macerata", 
+   "frequency": "MANUAL"
+}

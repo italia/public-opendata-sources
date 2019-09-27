@@ -1,0 +1,10 @@
+{
+   "title": "Catalogo open data ISPRA", 
+   "name": "catalogo-open-data-ispra", 
+   "url": "http://dati.isprambiente.it/sparql?default-graph-uri=&query=PREFIX+dcat%3A+%09%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0D%0APREFIX+dct%3A+%09%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0Aconstruct+%7B%0D%0A+%3Fs+%3Fp+%3Fo+.%0D%0A+%3Fd+%3Fe+%3Ff+.%0D%0A+%3Fg+%3Fh+%3Fi+.%0D%0A%7D+where+%7B%0D%0A+%3Fs+%3Fp+%3Fo+.%0D%0Afilter%28+str%28%3Fs%29+%3D+%22http%3A%2F%2Fdati.isprambiente.it%2Fid%2Fcatalogue%22+%29%0D%0A%0D%0A+optional+%7B%0D%0A++%3Fs+dcat%3Adataset+%3Fd+.%0D%0A++%3Fd+%3Fe+%3Ff+.%0D%0A++optional+%7B%0D%0A+++%3Fd+%3Fx+%3Fg+.%0D%0A+++%3Fg+%3Fh+%3Fi+.%0D%0A+++filter+%28%3Fx%3Ddcat%3Adistribution+%7C%7C+%3Fx%3Ddct%3ArightsHolder+%7C%7C+%3Fx%3Ddct%3Apublisher+%7C%7C+%3Fx%3Ddct%3Acreator+%7C%7C+%3Fx%3Ddcat%3AcontactPoint%29%0D%0A++%7D%0D%0A+%7D%0D%0A%7D%0D%0A&format=application%2Frdf%2Bxml&timeout=0&debug=on", 
+   "type": "harvest", 
+   "source_type": "dcat_rdf", 
+   "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"ISPRA\",\"source_catalog_description\":\"Catalogo open data ISPRA\",\"source_catalog_homepage\":\"http://dati.isprambiente.it/sparql?default-graph-uri=&query=PREFIX+dcat%3A+%09%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0D%0APREFIX+dct%3A+%09%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0Aconstruct+%7B%0D%0A+%3Fs+%3Fp+%3Fo+.%0D%0A+%3Fd+%3Fe+%3Ff+.%0D%0A+%3Fg+%3Fh+%3Fi+.%0D%0A%7D+where+%7B%0D%0A+%3Fs+%3Fp+%3Fo+.%0D%0Afilter%28+str%28%3Fs%29+%3D+%22http%3A%2F%2Fdati.isprambiente.it%2Fid%2Fcatalogue%22+%29%0D%0A%0D%0A+optional+%7B%0D%0A++%3Fs+dcat%3Adataset+%3Fd+.%0D%0A++%3Fd+%3Fe+%3Ff+.%0D%0A++optional+%7B%0D%0A+++%3Fd+%3Fx+%3Fg+.%0D%0A+++%3Fg+%3Fh+%3Fi+.%0D%0A+++filter+%28%3Fx%3Ddcat%3Adistribution+%7C%7C+%3Fx%3Ddct%3ArightsHolder+%7C%7C+%3Fx%3Ddct%3Apublisher+%7C%7C+%3Fx%3Ddct%3Acreator+%7C%7C+%3Fx%3Ddcat%3AcontactPoint%29%0D%0A++%7D%0D%0A+%7D%0D%0A%7D%0D%0A&format=application%2Frdf%2Bxml&timeout=0&debug=on\",\"source_catalog_language\":\"ITA\",\"source_catalog_modified\":\"2017-01-01T00:00:00\"}}", 
+   "owner_org": "ispra", 
+   "frequency": "MANUAL"
+}

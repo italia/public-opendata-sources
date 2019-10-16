@@ -1,44 +1,35 @@
-# CKAN Harvesting Sources for Piattaforma Digitale Nazionale Dati (PDND) - previously DAF
+# Italian Public Open Data Sources
 
 [![Join the #pdnd-ckan channel](https://img.shields.io/badge/Slack%20channel-%23pdnd--ckan-blue.svg?logo=slack)](https://developersitalia.slack.com/messages/CMX9ZDPK3)
 [![Get invited](https://slack.developers.italia.it/badge.svg)](https://slack.developers.italia.it/)
 [![PDND/DAF on forum.italia.it](https://img.shields.io/badge/Forum-PDND-blue.svg)](https://forum.italia.it/c/daf)
 
-CKAN is a powerful data management system that makes data accessible – by providing tools to streamline publishing, sharing, finding and using data. CKAN is a key component consumed by the PDND project. This repository collects all open data sources PDND harvests.
+This repository aims to collect and share an updated list of Italian public open data sources as complete as possible in both human- and machine-readable formats.
 
-## What is PDND?
+It is also the official repository of harvesting sources for [CKAN-IT](https://github.com/italia/ckan-it) when configured as open data harvester,
+ie. within the [Piattaforma Digitale Nazionale Dati (PDND) - previously DAF](https://pdnd.italia.it/).
 
-PDND stays for "Piattaforma Digitale Nazionale Dati" (the Italian Digital Data Platform), previously known as Data & Analytics Framework (DAF).
+CKAN-IT provides everything you need to run CKAN plus a set of extensions for supporting Italian open data in a set of Docker images.
+If you are interested in an open data catalogue up and running in minutes, see [italia/ckan-it](https://github.com/italia/ckan-it).
 
-You can find more informations about the PDND on the official [Digital Transformation Team website](https://teamdigitale.governo.it/it/projects/daf.htm).
-
-## How to import these resources
+## How to import these resources in CKAN-IT
 
 Install, setup and run CKAN from [the official repository](https://github.com/italia/ckan-it).
 
-1. Run `bash import_all.sh` (assuming CKAN is running on localhost:5000).
+If you are ok with the official docker images provided, simply run them setting the environment variable `CKAN_HARVEST="true"`.
+Read more [here](https://github.com/italia/ckan-it#ckan-it-harvesting-optional) for details.
+
+Otherwise you can manually use the `import_all.sh` script on a running instance of CKAN-IT.
+
+1. Run `bash import_all.sh APIKEY HOST` where APIKEY is the API key of your admin user ([read more here](https://docs.ckan.org/en/2.6/api/index.html#authentication-and-api-keys) for details) and HOST is the CKAN host (ie. `localhost:5000`).
 2. Browse to [http://localhost:5000/organization](http://localhost:5000/organization) to check all imported organizations
 3. Browse to [http://localhost:5000/harvest](http://localhost:5000/harvest) to check all imported sources
 
-## How to run CKAN harvesting
+Now follow [these steps](https://github.com/italia/ckan-it#ckan-it-harvesting-optional) to run CKAN-IT harvesting process.
 
-1. Identify the name of the CKAN Container and run the following command: `containerid=$(docker ps | grep dati-ckan-docker_ckan | awk '{print $11}') && docker exec -it $containerid /periodic-harvest-run.sh && docker exec -it $containerid /periodic-harvester-joball.sh` where in `$containerid` there is the name of the container as per `docker ps` command output
+## How to export your resources
 
-You can see logs during harvesting import with following command: `docker logs ckan -f`. Specific logs are in `/var/log/ckan` folder inside the container.
-
-### Run CKAN periodic harvesting
-
-Schedule a CRON job on the host machine to run the `/periodic-harvest.sh` script at the root of the file system of the CKAN container.
-
-How to do this really depends on how you run the containers. When running containers with docker-compose for instance we did this by getting the container id and using `docker-exec` to run a command inside the container, as follows:
-
-```
-containerid=`docker ps | grep dati-ckan-docker_ckan | awk '{print $11}'`
-docker exec -it $containerid /periodic-harvest-run.sh 2>&1 /var/log/periodic-harvest-run.out
-docker exec -it $containerid /periodic-harvester-joball.sh 2>&1 /var/log/periodic-harvest-joball.out
-```
-
-So you can schedule a periodic run of the above script every 15 minutes with CRON on the host machine.
+If you are running a CKAN-IT instance with many harvesting sources defined (ie. using the web interface), you can export them all using `orgs/export_orgs.py` and `sources/export_sources.py` scripts.
 
 ## How to contribute
 

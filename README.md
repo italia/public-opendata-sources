@@ -12,7 +12,7 @@ ie. within the [Piattaforma Digitale Nazionale Dati (PDND) - previously DAF](htt
 CKAN-IT provides everything you need to run CKAN plus a set of extensions for supporting Italian open data in a set of Docker images.
 If you are interested in an open data catalogue up and running in minutes, see [italia/ckan-it](https://github.com/italia/ckan-it).
 
-## Resources description: organizations and harvesting sources
+## Resources: organizations and harvesting sources
 
 A resource is composed by two entities: an organization and a harvesting source. Both are described by a json file compliant with the schemas provided.
 In `orgs/` folder there are all organizations. In `sources/` folder, all harvesting sources.
@@ -26,7 +26,27 @@ You must have Python3 and the [jsonschema module](https://pypi.org/project/jsons
 If you want to run them in a virtual environment, a Pipfile is provided to use with [pipenv](https://pipenv.kennethreitz.org/en/latest/).
 If you have pipenv, just run `pipenv shell` and then `pipenv install` before the validation scripts.
 
-## How to import these resources in CKAN-IT
+### Naming convention
+
+Organizations:
+
+* the name of the organization should be the extended version if there is also an acronym, ie. MIUR -> Ministero dell'istruzione, dell'università e della ricerca, especially if in the name there is also a category term (ie. "Ministero")
+* some organizations are known mainly by their acronym, ie. INPS, so it's ok to use it
+* here are some category terms to maintain in organization names:
+  * "Comune di"
+  * "Provincia di"
+  * "Provincia autonoma di"
+  * "Regione"
+  * "Ministero di"
+  * "Città metropolitana di"
+  * "Università di"
+
+Harvesting sources:
+
+* the name should following this rule:
+  * "Catalogo open data " followed by the name of organization (also the acronym if present)
+
+## How to import resources in CKAN-IT
 
 Install, setup and run CKAN from [the official repository](https://github.com/italia/ckan-it).
 

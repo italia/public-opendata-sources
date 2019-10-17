@@ -30,7 +30,7 @@
         },
         "region": {
             "type": "string",
-            "description": "Two digit numeric identifier of Italian region the local organization is established (provided by ISTAT). Empty for national organizations.",
+            "description": "Two digit numeric identifier of Italian region where the local organization is established (provided by ISTAT). Empty for national organizations.",
             "enum": [
                 "01",
                 "02",

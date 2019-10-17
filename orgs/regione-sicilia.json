@@ -1,8 +1,8 @@
 {
-   "title": "Regione Sicilia", 
-   "name": "regione-sicilia", 
-   "site": "http://pti.regione.sicilia.it", 
-   "email": "segreteria.generale@certmail.regione.sicilia.it", 
-   "identifier": "r_sicili", 
-   "region": "19"
+    "name": "regione-sicilia",
+    "title": "Regione Sicilia",
+    "site": "http://pti.regione.sicilia.it",
+    "email": "segreteria.generale@certmail.regione.sicilia.it",
+    "region": "19",
+    "identifier": "r_sicili"
 }

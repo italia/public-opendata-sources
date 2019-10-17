@@ -1,8 +1,8 @@
 {
-   "title": "Universit\u00e0 di Bologna", 
-   "name": "universita-di-bologna", 
-   "site": "http://www.unibo.it", 
-   "email": "scriviunibo@pec.unibo.it", 
-   "identifier": "uni_bo", 
-   "region": "08"
+    "name": "universita-di-bologna",
+    "title": "Universit\u00e0 di Bologna",
+    "site": "http://www.unibo.it",
+    "email": "scriviunibo@pec.unibo.it",
+    "region": "08",
+    "identifier": "uni_bo"
 }

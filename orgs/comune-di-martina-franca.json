@@ -1,8 +1,8 @@
 {
-   "title": "Comune di Martina Franca", 
-   "name": "comune-di-martina-franca", 
-   "site": "https://www.comunemartinafranca.gov.it/", 
-   "email": "protocollo.comunemartinafranca@pec.rupar.puglia.it", 
-   "identifier": "c_e986", 
-   "region": "16"
+    "name": "comune-di-martina-franca",
+    "title": "Comune di Martina Franca",
+    "site": "https://www.comunemartinafranca.gov.it/",
+    "email": "protocollo.comunemartinafranca@pec.rupar.puglia.it",
+    "region": "16",
+    "identifier": "c_e986"
 }

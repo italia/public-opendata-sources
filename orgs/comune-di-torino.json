@@ -1,8 +1,8 @@
 {
-   "title": "Comune di Torino", 
-   "name": "comune-di-torino", 
-   "site": "http://www.comune.torino.it/", 
-   "email": "protocollogenerale@cert.comune.torino.it", 
-   "identifier": "c_l219", 
-   "region": "01"
+    "name": "comune-di-torino",
+    "title": "Comune di Torino",
+    "site": "http://www.comune.torino.it/",
+    "email": "protocollogenerale@cert.comune.torino.it",
+    "region": "01",
+    "identifier": "c_l219"
 }

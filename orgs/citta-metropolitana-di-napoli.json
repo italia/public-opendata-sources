@@ -1,8 +1,8 @@
 {
-   "title": "Citt\u00e0 Metropolitana di Napoli", 
-   "name": "citta-metropolitana-di-napoli", 
-   "site": "https://www.cittametropolitana.na.it/", 
-   "email": "cittametropolitana.na@pec.it", 
-   "identifier": "cmna", 
-   "region": "15"
+    "name": "citta-metropolitana-di-napoli",
+    "title": "Citt\u00e0 Metropolitana di Napoli",
+    "site": "https://www.cittametropolitana.na.it/",
+    "email": "cittametropolitana.na@pec.it",
+    "region": "15",
+    "identifier": "cmna"
 }

@@ -1,8 +1,8 @@
 {
-   "title": "Comune di Latiano", 
-   "name": "comune-di-latiano", 
-   "site": "https://www.comune.latiano.br.it/", 
-   "email": "segreteria@pec.comune.latiano.br.it", 
-   "identifier": "c_e471", 
-   "region": "16"
+    "name": "comune-di-latiano",
+    "title": "Comune di Latiano",
+    "site": "https://www.comune.latiano.br.it/",
+    "email": "segreteria@pec.comune.latiano.br.it",
+    "region": "16",
+    "identifier": "c_e471"
 }

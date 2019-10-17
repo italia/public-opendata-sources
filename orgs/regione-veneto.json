@@ -1,8 +1,8 @@
 {
-   "title": "Regione Veneto", 
-   "name": "regione-veneto", 
-   "site": "http://dati.veneto.it/", 
-   "email": "test@veneto.test", 
-   "identifier": "r_veneto", 
-   "region": "05"
+    "name": "regione-veneto",
+    "title": "Regione Veneto",
+    "site": "http://dati.veneto.it/",
+    "email": "test@veneto.test",
+    "region": "05",
+    "identifier": "r_veneto"
 }

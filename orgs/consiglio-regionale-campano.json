@@ -1,8 +1,8 @@
 {
-   "title": "Consiglio regionale campano", 
-   "name": "consiglio-regionale-campano", 
-   "site": "http://www.consiglio.regione.campania.it/", 
-   "email": "protocollo.generale@consiglio.regione.campania.legalmail.it", 
-   "identifier": "cr_campa", 
-   "region": "15"
+    "name": "consiglio-regionale-campano",
+    "title": "Consiglio regionale campano",
+    "site": "http://www.consiglio.regione.campania.it/",
+    "email": "protocollo.generale@consiglio.regione.campania.legalmail.it",
+    "region": "15",
+    "identifier": "cr_campa"
 }

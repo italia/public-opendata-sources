@@ -1,8 +1,8 @@
 {
-   "title": "Comune di Terlizzi", 
-   "name": "comune-di-terlizzi", 
-   "site": "https://www.comune.terlizzi.ba.it/", 
-   "email": "protocollo@pec.comune.terlizzi.ba.it", 
-   "identifier": "c_l109", 
-   "region": "16"
+    "name": "comune-di-terlizzi",
+    "title": "Comune di Terlizzi",
+    "site": "https://www.comune.terlizzi.ba.it/",
+    "email": "protocollo@pec.comune.terlizzi.ba.it",
+    "region": "16",
+    "identifier": "c_l109"
 }

@@ -1,8 +1,8 @@
 {
-   "title": "Comune di Palermo", 
-   "name": "comune-di-palermo", 
-   "site": "http://www.comune.palermo.it", 
-   "email": "protocollo@cert.comune.palermo.it", 
-   "identifier": "c_g273", 
-   "region": "19"
+    "name": "comune-di-palermo",
+    "title": "Comune di Palermo",
+    "site": "http://www.comune.palermo.it",
+    "email": "protocollo@cert.comune.palermo.it",
+    "region": "19",
+    "identifier": "c_g273"
 }

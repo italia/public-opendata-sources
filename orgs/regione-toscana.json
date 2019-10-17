@@ -1,8 +1,8 @@
 {
-   "title": "Regione Toscana", 
-   "name": "regione-toscana", 
-   "site": "http://www.regione.toscana.it/", 
-   "email": "regione@toscana.it", 
-   "identifier": "r_toscana", 
-   "region": "09"
+    "name": "regione-toscana",
+    "title": "Regione Toscana",
+    "site": "http://www.regione.toscana.it/",
+    "email": "regione@toscana.it",
+    "region": "09",
+    "identifier": "r_toscana"
 }

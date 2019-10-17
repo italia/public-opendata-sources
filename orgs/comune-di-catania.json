@@ -1,8 +1,8 @@
 {
-   "title": "Comune di Catania", 
-   "name": "comune-di-catania", 
-   "site": "https://www.comune.catania.it/", 
-   "email": "comune.catania@pec.it", 
-   "identifier": "c_c351", 
-   "region": "19"
+    "name": "comune-di-catania",
+    "title": "Comune di Catania",
+    "site": "https://www.comune.catania.it/",
+    "email": "comune.catania@pec.it",
+    "region": "19",
+    "identifier": "c_c351"
 }

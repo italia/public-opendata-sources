@@ -1,8 +1,8 @@
 {
-   "title": "Comune di Genova", 
-   "name": "comune-di-genova", 
-   "site": "http://www.comune.genova.it", 
-   "email": "comunegenova@postemailcertificata.it", 
-   "identifier": "c_d969", 
-   "region": "07"
+    "name": "comune-di-genova",
+    "title": "Comune di Genova",
+    "site": "http://www.comune.genova.it",
+    "email": "comunegenova@postemailcertificata.it",
+    "region": "07",
+    "identifier": "c_d969"
 }

@@ -1,8 +1,8 @@
 {
-   "title": "Regione Piemonte", 
-   "name": "regione-piemonte", 
-   "site": "http://www.regione.piemonte.it/", 
-   "email": "urp@regione.piemonte.it", 
-   "identifier": "r_piemon", 
-   "region": "01"
+    "name": "regione-piemonte",
+    "title": "Regione Piemonte",
+    "site": "http://www.regione.piemonte.it/",
+    "email": "urp@regione.piemonte.it",
+    "region": "01",
+    "identifier": "r_piemon"
 }

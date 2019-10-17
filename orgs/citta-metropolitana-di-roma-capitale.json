@@ -1,8 +1,8 @@
 {
-   "title": "Citt\u00e0 Metropolitana di Roma Capitale", 
-   "name": "citta-metropolitana-di-roma-capitale", 
-   "site": "http://www.cittametropolitanaroma.gov.it/", 
-   "email": "info@cittametropolitanaroma.gov.it", 
-   "identifier": "cmrc", 
-   "region": "12"
+    "name": "citta-metropolitana-di-roma-capitale",
+    "title": "Citt\u00e0 Metropolitana di Roma Capitale",
+    "site": "http://www.cittametropolitanaroma.gov.it/",
+    "email": "info@cittametropolitanaroma.gov.it",
+    "region": "12",
+    "identifier": "cmrc"
 }

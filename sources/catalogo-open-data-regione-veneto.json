@@ -1,0 +1,10 @@
+{
+    "name": "catalogo-open-data-regione-veneto",
+    "title": "Catalogo open data Regione Veneto",
+    "url": "https://dati.veneto.it/SpodCkanApi/",
+    "type": "harvest",
+    "source_type": "CKAN-DCATAPIT",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Regione Veneto\",\"source_catalog_description\":\"Catalogo OpenData della Regione Veneto\",\"source_catalog_homepage\":\"https://dati.veneto.it/SpodCkanApi/\",\"source_catalog_language\":\"ITA\",\"source_catalog_modified\":\"2017-01-01T00:00:00\"}}",
+    "owner_org": "regione-veneto",
+    "frequency": "MANUAL"
+}

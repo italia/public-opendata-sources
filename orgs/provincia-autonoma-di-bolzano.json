@@ -1,8 +1,8 @@
 {
-   "title": "Provincia Autonoma di Bolzano", 
-   "name": "provincia-autonoma-di-bolzano", 
-   "site": "http://www.provincia.bz.it", 
-   "email": "adm@pec.prov.bz.it", 
-   "identifier": "p_bz", 
-   "region": "04"
+    "name": "provincia-autonoma-di-bolzano",
+    "title": "Provincia Autonoma di Bolzano",
+    "site": "http://www.provincia.bz.it",
+    "email": "adm@pec.prov.bz.it",
+    "region": "04",
+    "identifier": "p_bz"
 }

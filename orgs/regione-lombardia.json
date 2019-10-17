@@ -1,8 +1,8 @@
 {
-   "title": "Regione Lombardia", 
-   "name": "regione-lombardia", 
-   "site": "http://www.regione.lombardia.it", 
-   "email": "presidenza@pec.regione.lombardia.it", 
-   "identifier": "r_lombar", 
-   "region": "03"
+    "name": "regione-lombardia",
+    "title": "Regione Lombardia",
+    "site": "http://www.regione.lombardia.it",
+    "email": "presidenza@pec.regione.lombardia.it",
+    "region": "03",
+    "identifier": "r_lombar"
 }

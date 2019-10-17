@@ -1,8 +1,8 @@
 {
-   "title": "Comune di Bari", 
-   "name": "comune-di-bari", 
-   "site": "http://www.comune.bari.it/", 
-   "email": "suap.comunebari@pec.rupar.puglia.it", 
-   "identifier": "c_a662", 
-   "region": "16"
+    "name": "comune-di-bari",
+    "title": "Comune di Bari",
+    "site": "http://www.comune.bari.it/",
+    "email": "suap.comunebari@pec.rupar.puglia.it",
+    "region": "16",
+    "identifier": "c_a662"
 }

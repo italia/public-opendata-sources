@@ -1,7 +1,7 @@
 {
-   "title": "Protezione Civile", 
-   "name": "protezione-civile", 
-   "site": "http://www.protezionecivile.gov.it/", 
-   "email": "protezionecivile@pec.governo.it", 
-   "identifier": "pro_civ"
+    "name": "protezione-civile",
+    "title": "Protezione Civile",
+    "site": "http://www.protezionecivile.gov.it/",
+    "email": "protezionecivile@pec.governo.it",
+    "identifier": "pro_civ"
 }

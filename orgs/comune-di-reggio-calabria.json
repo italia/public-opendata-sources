@@ -1,8 +1,8 @@
 {
-   "title": "Comune di Reggio Calabria", 
-   "name": "comune-di-reggio-calabria", 
-   "site": "http://www.reggiocal.it", 
-   "email": "protocollo@pec.reggiocal.it", 
-   "identifier": "c_h224", 
-   "region": "18"
+    "name": "comune-di-reggio-calabria",
+    "title": "Comune di Reggio Calabria",
+    "site": "http://www.reggiocal.it",
+    "email": "protocollo@pec.reggiocal.it",
+    "region": "18",
+    "identifier": "c_h224"
 }

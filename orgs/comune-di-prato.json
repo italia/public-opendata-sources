@@ -1,8 +1,8 @@
 {
-   "title": "Comune di Prato", 
-   "name": "comune-di-prato", 
-   "site": "http://www.comune.prato.it/", 
-   "email": "comune.prato@postacert.toscana.it", 
-   "identifier": "c_g999", 
-   "region": "09"
+    "name": "comune-di-prato",
+    "title": "Comune di Prato",
+    "site": "http://www.comune.prato.it/",
+    "email": "comune.prato@postacert.toscana.it",
+    "region": "09",
+    "identifier": "c_g999"
 }

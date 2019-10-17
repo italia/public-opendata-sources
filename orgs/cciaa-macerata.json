@@ -1,7 +1,8 @@
 {
-   "title": "CCIAA Macerata", 
-   "name": "cciaa-macerata", 
-   "site": "http://www.mc.camcom.it", 
-   "email": "cciaa.macerata@mc.legalmail.camcom.it", 
-   "identifier": "cciaa_mc"
+    "name": "cciaa-macerata",
+    "title": "CCIAA Macerata",
+    "site": "http://www.mc.camcom.it",
+    "email": "cciaa.macerata@mc.legalmail.camcom.it",
+    "region": "11",
+    "identifier": "cciaa_mc"
 }

@@ -1,6 +1,6 @@
 {
-    "name": "catalogo-open-data-mise-open-coesione",
-    "title": "Catalogo open data dell'iniziativa Open Coesione",
+    "name": "catalogo-open-data-open-coesione",
+    "title": "Catalogo open data Open Coesione",
     "url": "https://opencoesione.gov.it/media/opendata/OpenCoesione.ttl",
     "type": "harvest",
     "source_type": "dcat_rdf",

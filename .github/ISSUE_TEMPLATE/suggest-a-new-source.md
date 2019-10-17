@@ -1,7 +1,7 @@
 ---
 name: Suggest a new source
 about: If you want to suggest a new public open data source.
-title: "[ORGS] "
+title: "[ORGS] Organization name"
 labels: enhancement, good first issue
 assignees: jenkin
 

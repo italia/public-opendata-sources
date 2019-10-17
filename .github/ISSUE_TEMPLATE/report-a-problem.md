@@ -1,15 +1,11 @@
 ---
 name: Report a problem
 about: If you want to report an error or a problem with an existing source.
-title: "[REPORT] "
+title: "[REPORT] Organization name"
 labels: bug, help wanted
 assignees: jenkin
 
 ---
-
-## Organization involved
-
-The name of the organization involved in your report.
 
 ## Problem description
 

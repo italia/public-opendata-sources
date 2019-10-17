@@ -1,0 +1,67 @@
+{
+    "title": "Harvesting source",
+    "description": "The harvesting source of the open data portal of an Italian organization compliant with CKAN-IT.",
+    "required": [
+        "name",
+        "title",
+        "url",
+        "type",
+        "source_type",
+        "owner_org",
+        "frequency"
+    ],
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "Unique identifier of the source."
+        },
+        "title": {
+            "type": "string",
+            "description": "Name of the source."
+        },
+        "url": {
+            "type": "string",
+            "description": "Open data portal endpoint serving the catalogue to be harvested.",
+            "format": "uri"
+        },
+        "type": {
+            "type": "string",
+            "const": "harvest"
+        },
+        "source_type": {
+            "type": "string",
+            "description": "Identifier of harvest type.",
+            "enum": [
+                "ckan",
+                "multilang",
+                "dcat_rdf",
+                "dcat_json",
+                "CKAN-DCATAPIT",
+                "DCAT_AP-IT CSW Harvester"
+            ]
+        },
+        "config": {
+            "type": "string",
+            "description": "Extra configurations.",
+            "default": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_language\":\"ITA\"}}"
+        },
+        "owner_org": {
+            "type": "string",
+            "description": "Unique identifier of the organization."
+        },
+        "frequency": {
+            "type": "string",
+            "description": "Frequency of automatic harvesting.",
+            "default": "MANUAL",
+            "enum": [
+                "MANUAL",
+                "MONTHLY",
+                "WEEKLY",
+                "BIWEEKLY",
+                "DAILY",
+                "ALWAYS"
+            ]
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "title": "Organization",
+    "description": "An Italian organization with an open data portal.",
+    "required": [
+        "name",
+        "title",
+        "site",
+        "email",
+        "identifier"
+    ],
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "Unique identifier of the organization."
+        },
+        "title": {
+            "type": "string",
+            "description": "Name of the organization."
+        },
+        "site": {
+            "type": "string",
+            "description": "Homepage url of the organization's website.",
+            "format": "uri"
+        },
+        "email": {
+            "type": "string",
+            "description": "Official e-mail of the organization, standard or PEC.",
+            "format": "email"
+        },
+        "region": {
+            "type": "string",
+            "description": "Two digit numeric identifier of Italian region the local organization is established (provided by ISTAT). Empty for national organizations.",
+            "enum": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20"
+            ]
+        },
+        "identifier": {
+            "type": "string",
+            "description": "IndicePA unique identifier of organization."
+        }
+    }
+}

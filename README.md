@@ -12,6 +12,20 @@ ie. within the [Piattaforma Digitale Nazionale Dati (PDND) - previously DAF](htt
 CKAN-IT provides everything you need to run CKAN plus a set of extensions for supporting Italian open data in a set of Docker images.
 If you are interested in an open data catalogue up and running in minutes, see [italia/ckan-it](https://github.com/italia/ckan-it).
 
+## Resources description: organizations and harvesting sources
+
+A resource is composed by two entities: an organization and a harvesting source. Both are described by a json file compliant with the schemas provided.
+In `orgs/` folder there are all organizations. In `sources/` folder, all harvesting sources.
+
+Before importing or just after exporting you should check compliance with schemas using two provided scripts.
+You must have Python3 and the [jsonschema module](https://pypi.org/project/jsonschema/) installed in your system.
+
+* Organizations: `bash validate_orgs.sh`
+* Sources: `bash validate_sources.sh`
+
+If you want to run them in a virtual environment, a Pipfile is provided to use with [pipenv](https://pipenv.kennethreitz.org/en/latest/).
+If you have pipenv, just run `pipenv shell` and then `pipenv install` before the validation scripts.
+
 ## How to import these resources in CKAN-IT
 
 Install, setup and run CKAN from [the official repository](https://github.com/italia/ckan-it).
@@ -29,7 +43,7 @@ Now follow [these steps](https://github.com/italia/ckan-it#ckan-it-harvesting-op
 
 ## How to export your resources
 
-If you are running a CKAN-IT instance with many harvesting sources defined (ie. using the web interface), you can export them all using `orgs/export_orgs.py` and `sources/export_sources.py` scripts.
+If you are running a CKAN-IT instance with many harvesting sources defined (ie. using the web interface), you can export them all using `export_orgs.py` and `export_sources.py` scripts. You must have Python3 installed.
 
 ## How to contribute
 

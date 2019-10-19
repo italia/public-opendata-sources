@@ -63,6 +63,7 @@ classification = {
         'comune': 'comune',
         'provincia': 'provincia',
         'regione': 'regione',
+        'universita': 'universita',
         '*': 'altro'
     }
 }

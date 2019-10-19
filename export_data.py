@@ -10,11 +10,11 @@ import json, pathlib, os, sys
 # NOTE: you can use relative or absolute paths, with or without a separator at the end of folder names
 
 # the folder that contains sources json files
-# default: './orgs'
+# default: './sources'
 env_sources = 'OPENDATA_SOURCES_DIR'
 
 # the folder containing the organization details
-# default: './sources'
+# default: './orgs'
 env_organizations = 'OPENDATA_ORGANIZATIONS_DIR'
 
 # the filename that will store the results (include extension)

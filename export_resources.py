@@ -42,9 +42,9 @@ empty = ('', None)
 
 sources_dir = os.environ[env_sources] if (env_sources in os.environ) and (os.environ[env_sources] not in empty) else pathlib.Path('.', 'sources')
 orgs_dir = os.environ[env_organizations] if (env_organizations in os.environ) and (os.environ[env_organizations] not in empty) else pathlib.Path('.',  'orgs')
-output = os.environ[env_output_filename] if (env_output_filename in os.environ) and (os.environ[env_output_filename] not in empty) else  pathlib.Path('.',  'data.json')
+output = os.environ[env_output_filename] if (env_output_filename in os.environ) and (os.environ[env_output_filename] not in empty) else  pathlib.Path('.',  'resources.json')
 override = (os.environ[env_allow_override].lower() not in falsy_strings) if (env_allow_override in os.environ) and (os.environ[env_allow_override] not in empty) else True
-keep_owner = (os.environ[env_keep_owner].lower() not in falsy_strings) if (env_keep_owner in os.environ) and (os.environ[env_keep_owner] not in empty) else False
+keep_owner = (os.environ[env_keep_owner].lower() not in falsy_strings) if (env_keep_owner in os.environ) and (os.environ[env_keep_owner] not in empty) else True
 to_stdout = (os.environ[env_to_stdout].lower() not in falsy_strings) if (env_to_stdout in os.environ) and (os.environ[env_to_stdout] not in empty) else False
 
 # A dictionary to guide in the classification of the organizations.

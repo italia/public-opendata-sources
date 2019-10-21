@@ -1,0 +1,113 @@
+{
+    "title": "Organization",
+    "description": "An Italian organization with an open data portal.",
+    "type": "object",
+    "properties": {
+        "nazionale": {
+            "title": "Organization",
+            "description": "An Italian organization with an open data portal.",
+            "type": "object",
+            "properties": {
+                "ministero": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/org"
+                    }
+                },
+                "altro": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/org"
+                    }
+                }
+            }
+        },
+        "locale": {
+            "title": "Organization",
+            "description": "An Italian organization with an open data portal.",
+            "type": "object",
+            "properties": {
+                "01": { "$ref": "#/definitions/region" },
+                "02": { "$ref": "#/definitions/region" },
+                "03": { "$ref": "#/definitions/region" },
+                "04": { "$ref": "#/definitions/region" },
+                "05": { "$ref": "#/definitions/region" },
+                "06": { "$ref": "#/definitions/region" },
+                "07": { "$ref": "#/definitions/region" },
+                "08": { "$ref": "#/definitions/region" },
+                "09": { "$ref": "#/definitions/region" },
+                "10": { "$ref": "#/definitions/region" },
+                "11": { "$ref": "#/definitions/region" },
+                "12": { "$ref": "#/definitions/region" },
+                "13": { "$ref": "#/definitions/region" },
+                "14": { "$ref": "#/definitions/region" },
+                "15": { "$ref": "#/definitions/region" },
+                "16": { "$ref": "#/definitions/region" },
+                "17": { "$ref": "#/definitions/region" },
+                "18": { "$ref": "#/definitions/region" },
+                "19": { "$ref": "#/definitions/region" },
+                "20": { "$ref": "#/definitions/region" }
+            }
+        }
+    },
+    "definitions": {
+        "region": {
+            "title": "Organization",
+            "description": "An Italian organization with an open data portal.",
+            "type": "object",
+            "properties": {
+                "citta metropolitana": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/org"
+                    }
+                },
+                "comune": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/org"
+                    }
+                },
+                "provincia": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/org"
+                    }
+                },
+                "regione": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/org"
+                    }
+                },
+                "universita": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/org"
+                    }
+                },
+                "altro": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/org"
+                    }
+                }
+            }
+        },
+        "org": {
+            "allOf": [
+                { "$ref": "https://raw.githubusercontent.com/italia/public-opendata-sources/master/orgs.schema.json" },
+                {
+                    "properties": {
+                        "sources": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "https://raw.githubusercontent.com/italia/public-opendata-sources/master/sources.schema.json"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

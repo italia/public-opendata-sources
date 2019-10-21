@@ -24,7 +24,12 @@ You must have Python3 and the [jsonschema module](https://pypi.org/project/jsons
 * Sources: `bash validate_sources.sh`
 
 If you want to run them in a virtual environment, a Pipfile is provided to use with [pipenv](https://pipenv.kennethreitz.org/en/latest/).
-If you have pipenv, just run `pipenv shell` and then `pipenv install` before the validation scripts.
+If you have pipenv, just run `pipenv shell` and then `pipenv install` before launch the validation scripts.
+
+You can combine all resources from `orgs/` and `sources/` folders in a single nested json structure using `export_resources.py` script that creates
+a `resources.json` file (see [#6](https://github.com/italia/public-opendata-sources/issues/6) for details).
+
+To validate it you can use the provided `resources.schema.json` schema: `jsonschema -i resources.json resources.schema.json`.
 
 ### Naming convention
 
@@ -63,7 +68,7 @@ Now follow [these steps](https://github.com/italia/ckan-it#ckan-it-harvesting-op
 
 ## How to export your resources
 
-If you are running a CKAN-IT instance with many harvesting sources defined (ie. using the web interface), you can export them all using `export_orgs.py` and `export_sources.py` scripts. You must have Python3 installed.
+If you are running a CKAN-IT instance with many harvesting sources defined (ie. using the web interface), you can export them all using `export_orgs.py` and `export_sources.py` scripts. You must have Python3 installed or use pipenv with provided Pipfile.
 
 ## How to contribute
 

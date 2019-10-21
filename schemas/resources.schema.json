@@ -1,0 +1,25 @@
+{
+    "title": "Italian public open data sources",
+    "description": "Italian organizations with an open data portal.",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/org"
+    },
+    "definitions": {
+        "org": {
+            "allOf": [
+                { "$ref": "https://raw.githubusercontent.com/italia/public-opendata-sources/master/schemas/orgs.schema.json" },
+                {
+                    "properties": {
+                        "sources": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "https://raw.githubusercontent.com/italia/public-opendata-sources/master/schemas/sources.schema.json#/definitions/source"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

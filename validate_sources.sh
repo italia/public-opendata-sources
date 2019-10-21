@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DIR="sources"
-SCHEMA="sources.schema.json"
+SCHEMA="schemas/sources.schema.json"
 
 echo "Validating all harvesting sources in $DIR/..."
 for f in $DIR/*; do

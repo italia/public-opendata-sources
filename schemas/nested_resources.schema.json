@@ -1,11 +1,11 @@
 {
-    "title": "Organization",
-    "description": "An Italian organization with an open data portal.",
+    "title": "Italian public open data sources (nested version)",
+    "description": "Italian organizations with an open data portal grouped by level, region, and type.",
     "type": "object",
     "properties": {
         "nazionale": {
-            "title": "Organization",
-            "description": "An Italian organization with an open data portal.",
+            "title": "Italian public open data sources (national level)",
+            "description": "Italian organizations (national level) with an open data portal grouped by type.",
             "type": "object",
             "properties": {
                 "ministero": {
@@ -23,8 +23,8 @@
             }
         },
         "locale": {
-            "title": "Organization",
-            "description": "An Italian organization with an open data portal.",
+            "title": "Italian public open data sources (local level)",
+            "description": "Italian organizations (local level) with an open data portal grouped by region.",
             "type": "object",
             "properties": {
                 "01": { "$ref": "#/definitions/region" },
@@ -52,8 +52,8 @@
     },
     "definitions": {
         "region": {
-            "title": "Organization",
-            "description": "An Italian organization with an open data portal.",
+            "title": "Italian public open data sources (regional level)",
+            "description": "Italian organizations (regional level) with an open data portal grouped by type.",
             "type": "object",
             "properties": {
                 "citta metropolitana": {
@@ -96,13 +96,13 @@
         },
         "org": {
             "allOf": [
-                { "$ref": "https://raw.githubusercontent.com/italia/public-opendata-sources/master/orgs.schema.json" },
+                { "$ref": "https://raw.githubusercontent.com/italia/public-opendata-sources/master/schemas/orgs.schema.json" },
                 {
                     "properties": {
                         "sources": {
                             "type": "array",
                             "items": {
-                                "$ref": "https://raw.githubusercontent.com/italia/public-opendata-sources/master/sources.schema.json"
+                                "$ref": "https://raw.githubusercontent.com/italia/public-opendata-sources/master/schemas/sources.schema.json#/definitions/source"
                             }
                         }
                     }

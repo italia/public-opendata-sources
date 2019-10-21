@@ -17,7 +17,7 @@ If you are interested in an open data catalogue up and running in minutes, see [
 A resource is composed by two entities: an organization and a harvesting source. Both are described by a json file compliant with the schemas provided.
 In `orgs/` folder there are all organizations. In `sources/` folder, all harvesting sources.
 
-Before importing or just after exporting you should check compliance with schemas using two provided scripts.
+Before importing or just after exporting you should check compliance with schemas in `schemas/` folder using two provided scripts.
 You must have Python3 and the [jsonschema module](https://pypi.org/project/jsonschema/) installed in your system.
 
 * Organizations: `bash validate_orgs.sh`
@@ -26,10 +26,12 @@ You must have Python3 and the [jsonschema module](https://pypi.org/project/jsons
 If you want to run them in a virtual environment, a Pipfile is provided to use with [pipenv](https://pipenv.kennethreitz.org/en/latest/).
 If you have pipenv, just run `pipenv shell` and then `pipenv install` before launch the validation scripts.
 
-You can combine all resources from `orgs/` and `sources/` folders in a single nested json structure using `export_resources.py` script that creates
-a `resources.json` file (see [#6](https://github.com/italia/public-opendata-sources/issues/6) for details).
+You can combine all resources from `orgs/` and `sources/` folders in single nested json files using `export_resources.py` script that creates two files in `resources/` folder:
 
-To validate it you can use the provided `resources.schema.json` schema: `jsonschema -i resources.json resources.schema.json`.
+* `resources.json` with a list of organizations and sources per organization;
+* `nested_resources.json` with a deeper nested object (see [#6](https://github.com/italia/public-opendata-sources/issues/6) for details).
+
+To validate them you can use the provided `validate_resources.sh` script.
 
 ### Naming convention
 

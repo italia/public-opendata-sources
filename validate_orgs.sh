@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DIR="orgs"
-SCHEMA="orgs.schema.json"
+SCHEMA="schemas/orgs.schema.json"
 
 echo "Validating all organizations in $DIR/..."
 for f in $DIR/*; do

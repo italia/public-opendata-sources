@@ -1,7 +1,16 @@
 {
     "allOf": [
         { "$ref": "#/definitions/source" },
-        { "required": ["owner_org"] }
+        { "required": ["owner_org"] },
+        {
+            "properties": {
+                "config": {
+                    "type": "string",
+                    "description": "Extra configurations.",
+                    "default": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_language\":\"ITA\"}}"
+                }
+            }
+        }
     ],
     "definitions": {
         "source": {
@@ -45,11 +54,6 @@
                         "CKAN-DCATAPIT",
                         "DCAT_AP-IT CSW Harvester"
                     ]
-                },
-                "config": {
-                    "type": "string",
-                    "description": "Extra configurations.",
-                    "default": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_language\":\"ITA\"}}"
                 },
                 "owner_org": {
                     "type": "string",

@@ -4,7 +4,7 @@
     "url": "http://dati.toscana.it/catalog.rdf",
     "type": "harvest",
     "source_type": "dcat_rdf",
-    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_language\":\"ITA\"}}",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo open data Regione Toscana\",\"source_catalog_homepage\":\"http://dati.toscana.it/\",\"source_catalog_language\":\"ITA\"}}",
     "owner_org": "regione-toscana",
     "frequency": "MANUAL"
 }

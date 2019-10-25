@@ -160,6 +160,8 @@ def parse():
     for source in pathlib.Path(sources_dir).glob('*.json'):
         with source.open('r') as source_file:            
             source_content = json.load(source_file)
+            if "config" in source_content:
+                source_content["config"] = json.loads(source_content["config"])
             owner = source_content['owner_org']
             try:
                 with pathlib.Path(orgs_dir, owner+'.json').open('r') as organization:

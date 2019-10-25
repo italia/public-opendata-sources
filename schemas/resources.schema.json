@@ -14,7 +14,40 @@
                         "sources": {
                             "type": "array",
                             "items": {
-                                "$ref": "https://raw.githubusercontent.com/italia/public-opendata-sources/master/schemas/sources.schema.json#/definitions/source"
+                                "$ref": "#/definitions/source"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "source": {
+            "allOf": [
+                { "$ref": "https://raw.githubusercontent.com/italia/public-opendata-sources/master/schemas/sources.schema.json#/definitions/source" },
+                {
+                    "properties": {
+                        "config": {
+                            "type": "object",
+                            "description": "Extra configurations.",
+                            "properties": {
+                                "clean_tags": {
+                                    "type": "boolean"
+                                },
+                                "default_extras": {
+                                    "type": "object",
+                                    "properties": {
+                                        "source_catalog_title": {
+                                            "type": "string"
+                                        },
+                                        "source_catalog_homepage": {
+                                            "type": "string"
+                                        },
+                                        "source_catalog_language": {
+                                            "type": "string",
+                                            "default": "ITA"
+                                        }
+                                    }
+                                }
                             }
                         }
                     }

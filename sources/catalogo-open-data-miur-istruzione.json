@@ -4,7 +4,7 @@
     "url": "http://dati.istruzione.it/opendata/CatalogoRDF",
     "type": "harvest",
     "source_type": "dcat_rdf",
-    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"MIUR-ISTRUZIONE\",\"source_catalog_description\":\"Catalogo open data MIUR-ISTRUZIONE\",\"source_catalog_homepage\":\"http://dati.istruzione.it/opendata/CatalogoRDF\",\"source_catalog_language\":\"ITA\",\"source_catalog_modified\":\"2017-01-01T00:00:00\"}}",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo open data MIUR ISTRUZIONE\",\"source_catalog_homepage\":\"https://dati.istruzione.it/opendata/\",\"source_catalog_language\":\"ITA\"}}",
     "owner_org": "ministero-dell-istruzione-dell-universita-e-della-ricerca",
     "frequency": "MANUAL"
 }

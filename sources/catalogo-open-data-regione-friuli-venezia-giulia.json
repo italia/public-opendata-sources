@@ -4,7 +4,7 @@
     "url": "http://servizistatistici.regione.fvg.it/OpenData/catalogo_regione_FVG.ttl",
     "type": "harvest",
     "source_type": "dcat_rdf",
-    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Regione Friuli Venezia Giulia\",\"source_catalog_description\":\"Catalogo OpenData della Regione Friuli Venezia Giulia\",\"source_catalog_homepage\":\"https://www.dati.friuliveneziagiulia.it/data.json\",\"source_catalog_language\":\"ITA\",\"source_catalog_modified\":\"2017-01-01T00:00:00\"}}",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo open data Regione Friuli-Venezia Giulia\",\"source_catalog_homepage\":\"https://www.dati.friuliveneziagiulia.it/\",\"source_catalog_language\":\"ITA\"}}",
     "owner_org": "regione-friuli-venezia-giulia",
     "frequency": "MANUAL"
 }

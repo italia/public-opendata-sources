@@ -1,0 +1,10 @@
+{
+    "name": "catalogo-open-data-mibact",
+    "title": "Catalogo open data MiBACT",
+    "url": "http://dati.beniculturali.it/sparql?query=construct+%7B%3Fs+%3Fp+%3Fo%7Dwhere%7Bgraph+%3Chttp%3A%2F%2Fdati.beniculturali.it%2Fdescrizione_dataset%3E+%7B%3Fs+%3Fp+%3Fo%7D%7D&format=application%2Frdf%2Bxml",
+    "type": "harvest",
+    "source_type": "dcat_rdf",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo open data MiBACT\",\"source_catalog_homepage\":\"http://dati.beniculturali.it/\",\"source_catalog_language\":\"ITA\"}}",
+    "owner_org": "ministero-per-i-beni-e-le-attivita-culturali-e-per-il-turismo",
+    "frequency": "MANUAL"
+}

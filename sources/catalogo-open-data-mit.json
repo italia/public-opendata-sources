@@ -4,7 +4,7 @@
     "url": "http://dati.mit.gov.it/dcat/catalog.rdf",
     "type": "harvest",
     "source_type": "dcat_rdf",
-    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"MIT\",\"source_catalog_description\":\"Catalogo open data MIT\",\"source_catalog_homepage\":\"http://dati.mit.gov.it/dcat/catalog.rdf\",\"source_catalog_language\":\"ITA\",\"source_catalog_modified\":\"2017-01-01T00:00:00\"}}",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo open data MIT\",\"source_catalog_homepage\":\"http://dati.mit.gov.it/catalog/dataset\",\"source_catalog_language\":\"ITA\"}}",
     "owner_org": "ministero-delle-infrastrutture-e-dei-trasporti",
     "frequency": "MANUAL"
 }

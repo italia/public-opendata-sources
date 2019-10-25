@@ -4,7 +4,7 @@
     "url": "http://api.smartdatanet.it/metadataapi/api/dcat/dataset_list?opendata=true&tenant=regpie&rows=1000&linkedData=true&outputFormat=turtle",
     "type": "harvest",
     "source_type": "dcat_rdf",
-    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Regione Piemonte\",\"source_catalog_description\":\"Catalogo open data Regione Piemonte\",\"source_catalog_homepage\":\"http://api.smartdatanet.it/metadataapi/api/dcat/dataset_list?opendata=true&tenant=regpie&rows=1000&linkedData=true&outputFormat=turtle\",\"source_catalog_language\":\"ITA\",\"source_catalog_modified\":\"2017-01-01T00:00:00\"}}",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo open data Regione Piemonte\",\"source_catalog_homepage\":\"http://www.dati.piemonte.it/\",\"source_catalog_language\":\"ITA\"}}",
     "owner_org": "regione-piemonte",
     "frequency": "MANUAL"
 }

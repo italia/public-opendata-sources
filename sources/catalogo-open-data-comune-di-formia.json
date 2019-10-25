@@ -1,0 +1,10 @@
+{
+    "name": "catalogo-open-data-comune-di-formia",
+    "title": "Catalogo open data Comune di Formia",
+    "url": "#",
+    "type": "harvest",
+    "source_type": "ckan",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo open data Comune di Formia\",\"source_catalog_homepage\":\"http://dati.comune.formia.lt.it/\",\"source_catalog_language\":\"ITA\"}}",
+    "owner_org": "comune-di-formia",
+    "frequency": "MANUAL"
+}

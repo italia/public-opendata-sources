@@ -1,6 +1,7 @@
 {
     "name": "aci",
     "title": "ACI",
+    "description": "Automobile Club d'Italia",
     "site": "http://www.aci.it/",
     "email": "automobileclubitalia@pec.aci.it",
     "identifier": "aci"

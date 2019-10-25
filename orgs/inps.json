@@ -1,6 +1,7 @@
 {
     "name": "inps",
     "title": "INPS",
+    "description": "Istituto Nazionale Previdenza Sociale",
     "site": "https://www.inps.it",
     "email": "ufficiosegreteria.direttoregenerale@postacert.inps.gov.it",
     "identifier": "inps"

@@ -1,6 +1,7 @@
 {
     "name": "ispra",
     "title": "ISPRA",
+    "description": "Istituto Superiore per la Protezione e la Ricerca Ambientale",
     "site": "http://www.isprambiente.gov.it/it",
     "email": "urp.ispra@ispra.legalmail.it",
     "identifier": "ispra_rm"

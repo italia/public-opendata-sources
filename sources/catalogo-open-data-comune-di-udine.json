@@ -1,0 +1,10 @@
+{
+    "name": "catalogo-open-data-comune-di-udine",
+    "title": "Catalogo open data Comune di Udine",
+    "url": "#",
+    "type": "harvest",
+    "source_type": "ckan",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo open data Comune di Udine\",\"source_catalog_homepage\":\"http://opendata.comune.udine.gov.it/\",\"source_catalog_language\":\"ITA\"}}",
+    "owner_org": "comune-di-udine",
+    "frequency": "MANUAL"
+}

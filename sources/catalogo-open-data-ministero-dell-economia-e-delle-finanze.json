@@ -1,0 +1,10 @@
+{
+    "name": "catalogo-open-data-ministero-dell-economia-e-delle-finanze",
+    "title": "Catalogo open data Ministero dell'economia e delle finanze",
+    "url": "#",
+    "type": "harvest",
+    "source_type": "ckan",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo open data Ministero dell'economia e delle finanze\",\"source_catalog_homepage\":\"http://www.mef.gov.it/documenti-pubblicazioni/open-data/index.html\",\"source_catalog_language\":\"ITA\"}}",
+    "owner_org": "ministero-dell-economia-e-delle-finanze",
+    "frequency": "MANUAL"
+}

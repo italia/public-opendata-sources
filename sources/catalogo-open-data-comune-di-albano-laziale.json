@@ -1,0 +1,10 @@
+{
+    "name": "catalogo-open-data-comune-di-albano-laziale",
+    "title": "Catalogo open data Comune di Albano Laziale",
+    "url": "#",
+    "type": "harvest",
+    "source_type": "ckan",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo open data Comune di Albano Laziale\",\"source_catalog_homepage\":\"http://dati.opendataground.it/comunealbanolaziale\",\"source_catalog_language\":\"ITA\"}}",
+    "owner_org": "comune-di-albano-laziale",
+    "frequency": "MANUAL"
+}

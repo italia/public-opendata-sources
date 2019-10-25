@@ -1,0 +1,10 @@
+{
+    "name": "catalogo-open-data-istat",
+    "title": "Catalogo open data ISTAT",
+    "url": "#",
+    "type": "harvest",
+    "source_type": "ckan",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo open data ISTAT\",\"source_catalog_homepage\":\"http://dati.istat.it/\",\"source_catalog_language\":\"ITA\"}}",
+    "owner_org": "istat",
+    "frequency": "MANUAL"
+}

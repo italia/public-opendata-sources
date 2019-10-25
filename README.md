@@ -38,7 +38,7 @@ To validate them you can use the provided `validate_resources.sh` script.
 Organizations:
 
 * the name of the organization should be the extended version if there is also an acronym, ie. MIUR -> Ministero dell'istruzione, dell'università e della ricerca, especially if in the name there is also a category term (ie. "Ministero")
-* some organizations are known mainly by their acronym, ie. INPS, so it's ok to use it
+* some organizations are known mainly by their acronym, ie. INPS, so it's ok to use it, but use description field for the extended name, ie. Istituto Nazionale Previdenza Sociale
 * here are some category terms to maintain in organization names:
   * "Comune di"
   * "Provincia di"
@@ -51,7 +51,10 @@ Organizations:
 Harvesting sources:
 
 * the name should following this rule:
-  * "Catalogo open data " followed by the name of organization (also the acronym if present)
+  * "Catalogo open data " followed by its own name, if present, or the name of organization (also the acronym if present)
+  * "Catalogo federato " followed by the name of organization (also the acronym if present)
+  * "Geoportale " followed by the name of organization (also the acronym if present)
+* if source is not harvestable by CKAN-IT, use `#` for the url field
 
 ## How to import resources in CKAN-IT
 

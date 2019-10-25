@@ -1,0 +1,10 @@
+{
+    "name": "catalogo-open-data-banca-dati-amministrazioni-pubbliche",
+    "title": "Catalogo open data Banca Dati Amministrazioni Pubbliche",
+    "url": "#",
+    "type": "harvest",
+    "source_type": "ckan",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo open data Banca Dati Amministrazioni Pubbliche\",\"source_catalog_homepage\":\"https://bdap-opendata.mef.gov.it/\",\"source_catalog_language\":\"ITA\"}}",
+    "owner_org": "ministero-dell-economia-e-delle-finanze-dipartimento-della-ragioneria-generale-dello-stato",
+    "frequency": "MANUAL"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "catalogo-open-data-comune-di-trieste",
+    "title": "Catalogo open data Comune di Trieste",
+    "url": "#",
+    "type": "harvest",
+    "source_type": "ckan",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo open data Comune di Trieste\",\"source_catalog_homepage\":\"http://dati.comune.trieste.it/\",\"source_catalog_language\":\"ITA\"}}",
+    "owner_org": "comune-di-trieste",
+    "frequency": "MANUAL"
+}

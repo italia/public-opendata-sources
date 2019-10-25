@@ -1,6 +1,7 @@
 {
     "name": "consip",
     "title": "CONSIP",
+    "description": "Consip SpA",
     "site": "http://www.consip.it/",
     "email": "postaconsip@postacert.consip.it",
     "identifier": "consips"

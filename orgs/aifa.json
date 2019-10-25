@@ -1,0 +1,8 @@
+{
+    "name": "aifa",
+    "title": "AIFA",
+    "description": "Agenzia Italiana del Farmaco",
+    "site": "http://www.aifa.gov.it/",
+    "email": "protocollo@pec.aifa.gov.it",
+    "identifier": "aifa_rm"
+}

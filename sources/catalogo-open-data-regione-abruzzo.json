@@ -1,0 +1,10 @@
+{
+    "name": "catalogo-open-data-regione-abruzzo",
+    "title": "Catalogo open data Regione Abruzzo",
+    "url": "#",
+    "type": "harvest",
+    "source_type": "ckan",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo open data Regione Abruzzo\",\"source_catalog_homepage\":\"http://opendata.regione.abruzzo.it/\",\"source_catalog_language\":\"ITA\"}}",
+    "owner_org": "regione-abruzzo",
+    "frequency": "MANUAL"
+}

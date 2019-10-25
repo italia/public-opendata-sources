@@ -1,0 +1,10 @@
+{
+    "name": "catalogo-open-data-camera-di-commercio-del-molise",
+    "title": "Catalogo open data Camera di Commercio del Molise",
+    "url": "#",
+    "type": "harvest",
+    "source_type": "ckan",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo open data Camera di Commercio del Molise\",\"source_catalog_homepage\":\"https://www.molise.camcom.gov.it/informazione-economica-e-sviluppo-del-territorio/opendata\",\"source_catalog_language\":\"ITA\"}}",
+    "owner_org": "cciaa-molise",
+    "frequency": "MANUAL"
+}

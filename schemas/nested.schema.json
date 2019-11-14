@@ -102,7 +102,7 @@
                         "sources": {
                             "type": "array",
                             "items": {
-                                "$ref": "https://raw.githubusercontent.com/italia/public-opendata-sources/master/schemas/resources.schema.json#/definitions/source"
+                                "$ref": "https://raw.githubusercontent.com/italia/public-opendata-sources/master/schemas/all.schema.json#/definitions/source"
                             }
                         }
                     }

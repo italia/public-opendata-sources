@@ -1,0 +1,10 @@
+{
+    "name": "catalogo-open-data-camera-di-commercio-delle-marche",
+    "title": "Catalogo open data Camera di Commercio delle Marche",
+    "url": "http://www.mc.camcom.it/uploaded/linked-open-data/dcat-opendata-catalog.rdf",
+    "type": "harvest",
+    "source_type": "dcat_rdf",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo open data Camera di Commercio delle Marche\",\"source_catalog_homepage\":\"http://www.mc.camcom.it/uploaded/Allegati/Promozione/Charts/Open-Data-Default.htm\",\"source_catalog_language\":\"ITA\"}}",
+    "owner_org": "cciaa-marche",
+    "frequency": "MANUAL"
+}

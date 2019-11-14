@@ -1,6 +1,8 @@
 # Italian Public Open Data Sources
 
 [![Data and open data on forum.italia.it](https://img.shields.io/badge/Forum-Dati%20e%20open%20data-blue.svg)](https://forum.italia.it/c/dati)
+[![Public opendata sources on forum.italia.it](https://img.shields.io/badge/Thread-Verso%20l%27elenco%20completo%20dei%20portali%20open%20data%20delle%20PA-blue.svg)](https://forum.italia.it/t/verso-lelenco-completo-dei-portali-open-data-delle-pa/12038)
+
 [![Join the #pdnd-ckan channel](https://img.shields.io/badge/Slack%20channel-%23pdnd--ckan-blue.svg?logo=slack)](https://developersitalia.slack.com/messages/CMX9ZDPK3)
 [![Get invited](https://slack.developers.italia.it/badge.svg)](https://slack.developers.italia.it/)
 

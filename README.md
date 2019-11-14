@@ -1,8 +1,8 @@
 # Italian Public Open Data Sources
 
+[![Data and open data on forum.italia.it](https://img.shields.io/badge/Forum-Dati%20e%20open%20data-blue.svg)](https://forum.italia.it/c/dati)
 [![Join the #pdnd-ckan channel](https://img.shields.io/badge/Slack%20channel-%23pdnd--ckan-blue.svg?logo=slack)](https://developersitalia.slack.com/messages/CMX9ZDPK3)
 [![Get invited](https://slack.developers.italia.it/badge.svg)](https://slack.developers.italia.it/)
-[![PDND/DAF on forum.italia.it](https://img.shields.io/badge/Forum-PDND-blue.svg)](https://forum.italia.it/c/daf)
 
 This repository aims to collect and share an updated list of Italian public open data sources as complete as possible in both human- and machine-readable formats.
 
@@ -11,7 +11,7 @@ ie. within the [Piattaforma Digitale Nazionale Dati (PDND) - previously DAF](htt
 CKAN-IT provides everything you need to run CKAN plus a set of extensions for supporting Italian open data in a set of Docker images.
 If you are interested in an open data catalogue up and running in minutes, see [italia/ckan-it](https://github.com/italia/ckan-it).
 
-## Entities: organizations and harvesting sources
+## Organizations and harvesting sources
 
 There are two entities: an organization and a harvesting source. Both are described by a json file compliant with the schemas provided.
 In `orgs/` folder there are all organizations. In `sources/` folder, all harvesting sources.
@@ -54,6 +54,8 @@ Harvesting sources:
   * "Catalogo federato " followed by the name of organization (also the acronym if present)
   * "Geoportale " followed by the name of organization (also the acronym if present)
 * if source is not harvestable by CKAN-IT, use `#` for the url field
+
+### Harvester types
 
 The following different types of harvesters are currently supported.
 

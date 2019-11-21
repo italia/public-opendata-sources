@@ -1,0 +1,10 @@
+{
+    "name": "geoportale-citta-metropolitana-di-torino",
+    "title": "Geoportale Citt\u00e0 Metropolitana di Torino",
+    "url": "#",
+    "type": "harvest",
+    "source_type": "ckan",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Geoportale Citt\u00e0 Metropolitana di Torino\",\"source_catalog_homepage\":\"http://www.geoportale.cittametropolitana.torino.it/\",\"source_catalog_language\":\"ITA\"}}",
+    "owner_org": "citta-metropolitana-di-torino",
+    "frequency": "MANUAL"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "catalogo-open-data-citta-metropolitana-di-bologna",
+    "title": "Catalogo open data Citt\u00e0 Metropolitana di Bologna",
+    "url": "#",
+    "type": "harvest",
+    "source_type": "ckan",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo open data Citt\u00e0 Metropolitana di Bologna\",\"source_catalog_homepage\":\"https://dati.cittametropolitana.bo.it/\",\"source_catalog_language\":\"ITA\"}}",
+    "owner_org": "citta-metropolitana-di-bologna",
+    "frequency": "MANUAL"
+}

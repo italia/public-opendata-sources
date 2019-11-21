@@ -1,0 +1,10 @@
+{
+    "name": "catalogo-federato-opendatanetwork",
+    "title": "Catalogo federato OpenDataNetwork",
+    "url": "http://www.opendatanetwork.it/",
+    "type": "harvest",
+    "source_type": "ckan",
+    "config": "{\"clean_tags\":true,\"default_extras\":{\"source_catalog_title\":\"Catalogo federato OpenDataNetwork\",\"source_catalog_homepage\":\"http://www.opendatanetwork.it/\",\"source_catalog_language\":\"ITA\"}}",
+    "owner_org": "citta-metropolitana-di-firenze",
+    "frequency": "MANUAL"
+}
